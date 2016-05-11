@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         
-        //self.agentNameText.text = ""
         self.greetingLabel.text = ""
         self.greetingTextView.text = ""
 
