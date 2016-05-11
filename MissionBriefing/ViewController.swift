@@ -41,11 +41,11 @@ class ViewController: UIViewController {
             let agentNames = self.agentNameText.text!.componentsSeparatedByString(" ")
             let agentLastName = agentNames[agentNames.count - 1]
             
-            self.greetingLabel.text! = "Good evening, Agent \(agentLastName)"
+            self.greetingLabel.text = "Good evening, Agent \(agentLastName)"
             
             let text = "This mission will be an arduous one, fraught with peril. You will cover much strange and unfamiliar territory. Should you choose to accept this mission, Agent \(agentLastName), you will certainly be disavowed, but you will be doing your country a great service. This message will self destruct in 5 seconds."
             
-            self.greetingTextView.text! = text
+            self.greetingTextView.text = text
             
             let authenticatedBackgroundColor = UIColor(red:0.585, green:0.78, blue:0.188, alpha:1)
             self.view.backgroundColor = authenticatedBackgroundColor
